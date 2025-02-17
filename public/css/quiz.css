@@ -1,0 +1,105 @@
+.quiz-container {
+    background-color: #ffffff;
+    border: 2px solid #87bfff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 2px 20px 20px 20px;
+    text-align: center;
+    color: #054a91;
+    max-width: 460px;
+    margin:auto;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.chronometre {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+    color: #054a91;
+    border: 1px solid #87bfff ;
+    background-color: #deedff;
+    padding: 8px 5px;
+    border-radius: 7px;
+}
+
+.progression {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+    color: #054a91;
+    border: 1px solid #87bfff ;
+    background-color: #deedff;
+    padding: 8px 5px;
+    border-radius: 7px;
+}
+
+.question h2 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.indice {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.options button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #87bfff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.options button:hover {
+    background-color: #054a91;
+}
+
+.controles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.controles button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #054a91;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.controles button:hover {
+    background-color: #033b68;
+}
+
+.controles button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.barre-progression {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.point-progression {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+
+}

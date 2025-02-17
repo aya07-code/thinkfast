@@ -17,6 +17,122 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/home', function () {
+    return view('pages.home');
+})->name('home');
+Route::get('/about', function () {
+    return view('pages.about');
+})->name('about');
+Route::get('/listcategory', function () {
+    return view('pages.list-card-category');; 
+})->name('listcategory');
+Route::get('/choisissez-sujets', function () {
+    return view('pages.choisissez-sujets');
+});
+Route::get('/choisissez-quiz', function () {
+    return view('pages.choisissez-quiz');
+});
+Route::get('/selection-sujets', function () {
+    return view('pages.selection-sujets');
+});
+Route::get('/quiz', function () {
+    return view('pages.quiz', [
+        'quizData' => [
+            [
+                'categorie' => 'React JS',
+                'questions' => [
+                    [
+                        'question' => "Qu'est-ce que React ?",
+                        'options' => ["Une bibliothèque", "Un framework", "Un langage"],
+                        'reponse' => "Une bibliothèque",
+                        'indice' => "React est souvent comparé à Angular, qui est un framework.",
+                        'niveau' => "facile",
+                    ],
+                    [
+                        'question' => "Qu'est-ce que React ?",
+                        'options' => ["Une bibliothèque", "Un framework", "Un langage"],
+                        'reponse' => "Une bibliothèque",
+                        'indice' => "React est souvent comparé à Angular, qui est un framework.",
+                        'niveau' => "facile",
+                    ],
+                    [
+                        'question' => "Qu'est-ce que React ?",
+                        'options' => ["Une bibliothèque", "Un framework", "Un langage"],
+                        'reponse' => "Une bibliothèque",
+                        'indice' => "React est souvent comparé à Angular, qui est un framework.",
+                        'niveau' => "facile",
+                    ],
+                    [
+                        'question' => "Qu'est-ce que React ?",
+                        'options' => ["Une bibliothèque", "Un framework", "Un langage"],
+                        'reponse' => "Une bibliothèque",
+                        'indice' => "React est souvent comparé à Angular, qui est un framework.",
+                        'niveau' => "facile",
+                    ],
+                    [
+                        'question' => "Quelle méthode est utilisée pour capturer les erreurs dans les composants React ?",
+                        'options' => ["ErrorBoundary", "tryCatch", "useError"],
+                        'reponse' => "ErrorBoundary",
+                        'indice' => "C'est un composant qui capture les erreurs dans ses enfants.",
+                        'niveau' => "moyen",
+                    ],
+                    [
+                        'question' => "Quelle méthode est utilisée pour capturer les erreurs dans les composants React ?",
+                        'options' => ["ErrorBoundary", "tryCatch", "useError"],
+                        'reponse' => "ErrorBoundary",
+                        'indice' => "C'est un composant qui capture les erreurs dans ses enfants.",
+                        'niveau' => "moyen",
+                    ],
+                    [
+                        'question' => "Quelle méthode est utilisée pour capturer les erreurs dans les composants React ?",
+                        'options' => ["ErrorBoundary", "tryCatch", "useError"],
+                        'reponse' => "ErrorBoundary",
+                        'indice' => "C'est un composant qui capture les erreurs dans ses enfants.",
+                        'niveau' => "moyen",
+                    ],
+                    [
+                        'question' => "Quelle méthode est utilisée pour capturer les erreurs dans les composants React ?",
+                        'options' => ["ErrorBoundary", "tryCatch", "useError"],
+                        'reponse' => "ErrorBoundary",
+                        'indice' => "C'est un composant qui capture les erreurs dans ses enfants.",
+                        'niveau' => "moyen",
+                    ],
+                    [
+                        'question' => "Quelle méthode est utilisée pour créer un composant React avec des événements ?",
+                        'options' => ["onClick", "handleClick", "eventListener"],
+                        'reponse' => "onClick",
+                        'indice' => "Cette propriété est utilisée pour gérer les clics.",
+                        'niveau' => "difficile",
+                    ],
+                    [
+                        'question' => "Quelle méthode est utilisée pour créer un composant React avec des événements ?",
+                        'options' => ["onClick", "handleClick", "eventListener"],
+                        'reponse' => "onClick",
+                        'indice' => "Cette propriété est utilisée pour gérer les clics.",
+                        'niveau' => "difficile",
+                    ],
+                    [
+                        'question' => "Quelle méthode est utilisée pour créer un composant React avec des événements ?",
+                        'options' => ["onClick", "handleClick", "eventListener"],
+                        'reponse' => "onClick",
+                        'indice' => "Cette propriété est utilisée pour gérer les clics.",
+                        'niveau' => "difficile",
+                    ],
+                    [
+                        'question' => "Quelle méthode est utilisée pour créer un composant React avec des événements ?",
+                        'options' => ["onClick", "handleClick", "eventListener"],
+                        'reponse' => "onClick",
+                        'indice' => "Cette propriété est utilisée pour gérer les clics.",
+                        'niveau' => "difficile",
+                    ],
+                ]
+            ]
+        ],
+        'languagesSelectionnes' => ['React JS'] 
+    ]);
+});
+
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');

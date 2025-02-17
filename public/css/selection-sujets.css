@@ -1,0 +1,51 @@
+.options-supplementaires {
+    background-color: #ffffff;
+    border: 2px solid #87bfff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    color: #054a91;
+    width: 400px;
+    margin:auto;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.options-supplementaires h2 {
+    font-size: 1.1em;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #054a91;
+}
+
+.options-supplementaires label {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.options-supplementaires input, .options-supplementaires select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #054a91;
+}
+
+.options-supplementaires button {
+    background-color: #4198df;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.options-supplementaires button:hover {
+    background-color: #75c1ff;
+    color: #054a91;
+}
