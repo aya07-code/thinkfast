@@ -1,0 +1,91 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 35px auto;
+    margin-top: 80px;
+    background-color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color:  #054a91;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+    width: 90%;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #34495e;
+}
+input{
+    outline: none;
+}
+input:focus{
+    border-color: #054a91;
+    border: 1px solid #054a91;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"],
+select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccd1d1;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: #2c3e50;
+}
+
+input[type="file"] {
+    padding: 3px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.btn-submit {
+    background-color: #2980b9;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    margin-left: 300px;
+}
+
+.btn-submit:hover {
+    background-color: #1c5980;
+}
+
+
+input[type="file"] {
+    border: none;
+}

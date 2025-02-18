@@ -30,7 +30,6 @@
             @endif
     </nav>
 </header>
-
 <style>
     .nav-a {
         text-decoration: none;
@@ -46,5 +45,6 @@
         color:rgb(2, 61, 116);
     }
 </style>
+
     </body>
 </html>

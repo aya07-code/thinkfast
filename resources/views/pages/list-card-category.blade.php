@@ -1,4 +1,4 @@
-<!-- resources/views/list-card-category.blade.php -->
+resources/views/list-card-category.blade.php
 <!DOCTYPE html>
 <html lang="en">
 <head>

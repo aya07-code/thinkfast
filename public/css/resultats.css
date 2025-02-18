@@ -1,0 +1,68 @@
+.resultats-container {
+    background-color: #ffffff;
+    border: 2px solid #87bfff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    color: #054a91;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.resultats h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #054a91;
+}
+.black{
+    color: black;
+}
+
+.score-progress {
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.progress-fill {
+    background-color: #4ecdc4;
+    height: 100%;
+    transition: width 1s ease;
+}
+
+.resultats-actions button {
+    background-color: #054a91;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.resultats-actions button:hover {
+    background-color: #033b68;
+}
+
+.categorie-resultats {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.question-resultat {
+    margin-bottom: 10px;
+}
+
+.question-resultat p {
+    margin: 5px 0;
+}

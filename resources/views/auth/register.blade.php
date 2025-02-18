@@ -115,22 +115,22 @@
                 <img class="img" src="{{ asset('images/logo-transparence-sans-logo1.png') }}" alt="logo" />
             </div>
 
-            @if ($errors->any())
+            <!-- @if ($errors->any())
                 <p class="error">{{ $errors->first() }}</p>
-            @endif
+            @endif -->
 
             <!-- Name -->
             <div class="input">
                 <i class="fas fa-user"></i>
                 <x-text-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus autocomplete="name" placeholder="Name" />
-                <x-input-error :messages="$errors->get('name')" class="mt-2" />
+                <!-- <x-input-error :messages="$errors->get('name')" class="mt-2" /> -->
             </div>
 
             <!-- Email Address -->
             <div class="input mt-4">
                 <i class="fas fa-envelope"></i>
                 <x-text-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autocomplete="username" placeholder="Email" />
-                <x-input-error :messages="$errors->get('email')" class="mt-2" />
+                <!-- <x-input-error :messages="$errors->get('email')" class="mt-2" /> -->
             </div>
 
             <!-- Password -->
@@ -141,7 +141,7 @@
                                 name="password"
                                 required autocomplete="new-password" 
                                 placeholder="Password"/>
-                <x-input-error :messages="$errors->get('password')" class="mt-2" />
+                <!-- <x-input-error :messages="$errors->get('password')" class="mt-2" /> -->
             </div>
 
             <!-- Confirm Password -->
@@ -151,7 +151,7 @@
                                 type="password"
                                 name="password_confirmation" required autocomplete="new-password" 
                                 placeholder="Confirm Password"/>
-                <x-input-error :messages="$errors->get('password_confirmation')" class="mt-2" />
+                <!-- <x-input-error :messages="$errors->get('password_confirmation')" class="mt-2" /> -->
             </div>
             <div class="flex items-center justify-end mt-4">
                 <a class="link" href="{{ route('login') }}">

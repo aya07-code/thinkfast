@@ -12,6 +12,7 @@
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
     width: 100%;
     height: 400px;
+    margin-left: 4px;
   }
   
   .welcome-section h3 {
@@ -63,6 +64,7 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     max-width: 1200px;
     margin: 10px auto;
+    margin-left: 4px;
   }
   
   .quiz-categories h3 {
@@ -121,6 +123,7 @@
     margin: 10px auto;
     font-family: 'Poppins', sans-serif;
     overflow: hidden;
+    margin-left: 4px;
   }
   
   .tit {
