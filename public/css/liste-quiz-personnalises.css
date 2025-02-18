@@ -30,7 +30,7 @@ h1 {
     margin-bottom: 10px;
 }
 .quiz-item {
-    background-color: #dff2ff;
+    background-color: #eaf1fe;
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
@@ -52,7 +52,7 @@ h1 {
 }
 
 .btn-export {
-    background-color: #2980b9;
+    background-color: #afccff;
     color: #ffffff;
     padding: 6px 10px;
     border: none;

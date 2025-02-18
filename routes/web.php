@@ -211,12 +211,24 @@ Route::get('/resultats', function () {
     
     return view('pages.resultats', compact('quizData', 'languagesSelectionnes', 'reponsesUtilisateur'));
 });
+
 Route::get('/quiz-personnaliser', function () {
     return view('pages.quiz-personnaliser');
-});
+})->name('quiz-personnaliser');
+Route::post('/quiz-personnaliser', function() {
+    return redirect()->route('quiz-personnaliser');
+})->name('quiz-personnaliser');
+
 Route::get('/liste-quiz-personnalises', function () {
     return view('pages.liste-quiz-personnalises');
+})->name('liste-quiz-personnalises');
+Route::get('/dashboards',function(){
+    return view('pages.dashboards');
 });
+
+Route::get('/rapport', function () {
+    return view('pages.rapport');
+})->name('rapport');
 
 
 
